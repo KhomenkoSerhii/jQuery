@@ -1,0 +1,24 @@
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #10242b;
+    font-size: 36px;
+    line-height: 55px;
+    letter-spacing: -1.08px;
+}
+
+.slick-dotted.slick-slider {
+    text-align: -webkit-center;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #e9563d;
+}
+
+.slick-dots li button:before {
+    font-size: 13px;
+}
+.slick-dots{
+    bottom: -60px;
+}
