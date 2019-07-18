@@ -1,4 +1,8 @@
-h3 {
+.slick-slide {
+    height: 335px;
+}
+
+h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-align: center;
@@ -6,6 +10,42 @@ h3 {
     font-size: 36px;
     line-height: 55px;
     letter-spacing: -1.08px;
+}
+
+
+h3 {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+p {
+    font-family: "Poppins - Medium", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.14px;
+    color: #b5b8b9;
+}
+h4, p{
+    text-align: left;
+    padding-left: 50px;
+}
+
+
+
+.slider .text {
+    position: relative;
+    top: -195px;
 }
 
 .slick-dotted.slick-slider {
@@ -19,6 +59,7 @@ h3 {
 .slick-dots li button:before {
     font-size: 13px;
 }
-.slick-dots{
+
+.slick-dots {
     bottom: -60px;
 }
